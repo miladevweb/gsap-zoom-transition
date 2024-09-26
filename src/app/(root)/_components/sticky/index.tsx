@@ -265,7 +265,7 @@ export default function Sticky() {
       </picture>
 
       <div
-        className="copy sm:w-1/2 w-full absolute top-1/2 left-1/2 origin-bottom-left hidden"
+        className="copy lg:w-1/2 w-full absolute top-1/2 left-1/2 origin-bottom-left hidden"
         style={{ transform: 'translateX(-50%) translateY(-50%) rotateY(-75deg) scale(50%)' }}
       >
         <h1 className="text-center ">A new way to create websites</h1>

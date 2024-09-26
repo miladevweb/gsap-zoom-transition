@@ -27,7 +27,7 @@
   }
 
   h1 {
-    @apply uppercase text-[20vw] sm:text-[8vw] font-semibold tracking-[2px] leading-[90%];
+    @apply uppercase text-[20vw] lg:text-[8vw] sm:text-[10vw] font-semibold tracking-[2px] leading-[90%];
   }
 
   p {

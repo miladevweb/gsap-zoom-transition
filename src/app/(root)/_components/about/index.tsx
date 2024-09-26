@@ -5,7 +5,7 @@ export default function About() {
   const { label, url } = GET_IMAGE(2)
 
   return (
-    <section className="py-16 sm:px-48 px-4 flex justify-center items-center sm:gap-40 bg-amber-500">
+    <section className="py-16 lg:px-48 px-4 flex justify-center items-center lg:gap-40 bg-amber-500">
       <picture className="flex-1 h-3/4 border-2 border-black">
         <Image
           src={url}

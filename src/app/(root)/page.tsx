@@ -1,8 +1,13 @@
+import { Hero, About, Sticky, Footer } from './_components'
+
 export default function Page() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <>
+      <Hero />
+      <About />
+      <Sticky />
+      <Footer />
+    </>
   )
 }
 

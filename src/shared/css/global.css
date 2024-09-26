@@ -14,10 +14,27 @@
   }
 
   picture {
-    @apply block;
+    @apply block relative;
   }
 
   img {
     @apply object-cover size-full;
+  }
+
+  /* Global styles for the project */
+  html {
+    scrollbar-width: none;
+  }
+
+  h1 {
+    @apply uppercase text-[20vw] sm:text-[8vw] font-semibold tracking-[2px] leading-[90%];
+  }
+
+  p {
+    @apply uppercase sm:text-lg text-sm;
+  }
+
+  section {
+    @apply w-screen h-screen;
   }
 }

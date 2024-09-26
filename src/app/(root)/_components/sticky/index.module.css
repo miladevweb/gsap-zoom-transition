@@ -1,0 +1,3 @@
+.imgContainer {
+  @apply absolute top-0 left-0 overflow-clip;
+}

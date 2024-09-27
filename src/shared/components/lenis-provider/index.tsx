@@ -1,8 +1,14 @@
 'use client'
-import { ReactLenis } from 'lenis/react'
-import { ReactNode } from 'react'
+import { ReactNode, useEffect } from 'react'
+import { ReactLenis, useLenis } from 'lenis/react'
 
 export default function LenisProvider({ children }: { children: ReactNode }) {
+  const lenis = useLenis()
+
+  useEffect(() => {
+    if (lenis) lenis.scrollTo(0)
+  }, [lenis])
+
   return (
     <ReactLenis
       root
